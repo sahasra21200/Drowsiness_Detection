@@ -29,7 +29,8 @@ thicc=2
 rpred=[99]
 lpred=[99]
 
-while(True):
+run = True
+while(run):
     ret, frame = cap.read()
     height, width = frame.shape[:2] 
 
